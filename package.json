@@ -1,4 +1,8 @@
 {
+  "engines": {
+    "node": "13.9.0",
+    "yarn": "1.22.4"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.14.5",
     "@rails/webpacker": "5.4.3",
