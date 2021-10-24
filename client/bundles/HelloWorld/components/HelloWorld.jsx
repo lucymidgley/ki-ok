@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
+import { Test } from './src/components/test'
 
 const HelloWorld = (props) => {
   const [name, setName] = useState(props.name);
@@ -7,6 +8,7 @@ const HelloWorld = (props) => {
   return (
     <div>
       <h3>Hello, {name}!</h3>
+      <Test />
       <hr />
       <form>
         <label htmlFor="name">
